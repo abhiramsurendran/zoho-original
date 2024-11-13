@@ -1,0 +1,869 @@
+
+*
+{
+margin: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+.navbar
+{
+ height: 80px;
+ width:100%;
+ background-color:white;
+ display: flex;
+ align-items: center;
+ position: fixed;
+ z-index: 3;
+}
+.logo img
+{
+ width: 130px;
+ height: 60px;
+ cursor: pointer;
+}
+.products
+{
+    padding-left: 30px;
+    cursor: pointer;
+    
+}
+.enterprise
+{
+padding-left: 30px;
+cursor: pointer;
+
+}
+
+.customers
+{
+padding-left: 30px;cursor: pointer;
+
+}
+
+.company
+{
+padding-left: 30px;cursor: pointer;
+
+}
+
+.more
+{
+padding-left: 30px;cursor: pointer;
+
+}
+
+.search-icon
+{
+padding-left: 350px;cursor: pointer;
+font-size: 19px;
+
+}
+
+.announce-icon
+{
+    padding-left: 25px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.language{
+
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.signin
+{
+    padding-left: 30px;
+    color: #f60014;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.signup
+{
+    margin-left: 30px;
+    color: white;
+   background-color: #f60014;
+   border-radius: 2px;
+    border: 1px solid #f60014;
+    height: 30px;
+    width: 80px;
+    font-size: 18px;
+    text-align: center;
+    cursor: pointer;
+
+}
+/*--------------------------------------------------------------------------------------*/
+.contentpage1
+{
+    background-color: #f8f9fb;
+    padding-top: 160px;
+    width: 1263px;
+    height: 710px;
+    display: flex;
+
+}
+
+.hone
+{
+    font-size: 54px;
+    letter-spacing: -1.5px;
+    width: 657px;
+    height: 161px;
+    padding-left: 70px;
+
+}
+
+.space
+{
+    color: #f60014;
+    font-size: xx-large;
+    padding-left: 70px;
+    width: 300px;
+
+}
+
+.writing
+{
+    width: 640px;
+    height: 115px;
+    font-size: 24px;
+    font: sans-serif;
+    padding-left: 70px;
+
+}
+
+.contentbutton
+{
+    margin-left: 70px;
+    background-color: #f60014;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 230px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+/*-----------------------------------------------------------------------------------------------------*/
+.featuredapp
+{
+    width: 390px;
+    height: 700px;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px
+}
+.feature
+{
+margin-left: 20px;
+padding-bottom: 20px;
+}
+.sym
+{
+    padding-top: 30px;
+}
+.crmoverall
+{
+    width: 390px;
+    height: 108px;
+    display: flex;
+    
+}
+.crmlogo i
+{
+    font-size: 50px;
+    width: 50px;
+    padding-left: 20px;
+}
+.crmlogo 
+{
+    font-size: 50px;
+    width: 50px;
+}
+.maintext1
+{
+font-size: 28px;
+font-family: 'Times New Roman', Times, serif;
+width: 60px;
+padding-left: 40px;
+}
+.contenttext1
+{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 280px;
+    padding-left: 40px;
+}
+.contenttext2
+{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 280px;
+    padding-left: 25px;
+}
+.contenttext3
+{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 280px;
+    padding-left: 28px;
+}
+.contenttext4
+{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 280px;
+    padding-left: 15px;
+}
+.contenttext5
+{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 280px;
+    padding-left: 15px;
+}
+.maintext1
+{
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 60px;
+    padding-left: 60px;
+}
+.maintext2
+{
+    font-size: 28px;
+font-family: 'Times New Roman', Times, serif;
+width: 60px;
+padding-left: 25px;
+}
+.maintext3
+{
+    font-size: 28px;
+font-family: 'Times New Roman', Times, serif;
+width: 60px;
+padding-left: 25px;
+}
+.maintext4
+{
+    font-size: 28px;
+font-family: 'Times New Roman', Times, serif;
+width: 60px;
+padding-left: 18px;
+}
+
+.maintext5
+{
+    font-size: 28px;
+font-family: 'Times New Roman', Times, serif;
+width: 60px;
+padding-left: 25px;
+}
+
+.mailoverall
+{
+    width: 390px;
+    height: 108px;
+    display: flex;
+}
+.maillogo i
+{
+    font-size: 50px;
+    padding-left: 20px;
+
+}
+
+
+.booksoverall
+{
+    width: 390px;
+    height: 108px;
+    display: flex;
+}
+
+.bookslogo i
+{
+    font-size: 50px;
+    padding-left: 20px;
+
+}
+.peopleoverall
+{
+    width: 390px;
+    height: 108px;
+    display: flex;
+}
+.peoplelogo
+{
+    font-size: 50px;
+}
+
+.peoplelogo i
+{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.payrolloverall
+{
+    width: 390px;
+    height: 108px;
+    display: flex;
+}
+.payrolllogo
+{
+    font-size: 50px;
+    padding-left: 20px;
+}
+.exploreall
+{
+text-align: center;
+justify-content: center;
+padding-top: 30px;
+padding-left: 30px;
+text-decoration: none;
+}
+.exploreall i
+{
+padding-left: 130px;
+
+}
+
+
+
+/*---------CONTENTPAGE2--------------------------------------------------------------------------------------*/
+.contentpage2
+{
+    width: 1263px;
+    height: 630px;
+    background-color: #fed600;
+    display: flex;
+}
+
+.zohoone
+{
+    width: 500px;
+    padding-top: 120px;
+    padding-left: 140px;
+}
+
+.zohotwo
+{
+    width: 500px;
+    padding-top: 160px;
+    padding-left: 140PX;
+}
+.ceophoto img
+{
+    width: 100px;
+}
+.ceo{
+    display: flex;
+    padding-top: 20px;
+}
+
+.contentbutton2
+{
+    margin-left: 15px;
+    background-color: #f60014;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 230px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+/*--------------------------------------------------------------------------------------------*/
+.contentpage3
+{
+   background-color: #f8f9fb;
+   height: 460px;
+}
+.brandtext
+{
+    text-align: center;
+    padding-top: 90px;
+}
+.justasimpleline
+{
+    color: #f60014;
+    text-align: center;
+}
+.brandselection
+{display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+.brandselection img
+{
+    height: 80px;
+    width:130px
+    
+}
+.brands2 img
+{
+    height: 50px;
+    width:130px;
+    margin-left: 550px;    
+    
+}
+.contentbutton3
+{
+    margin-left: 500px;
+    background-color: #f8f9fb;
+    color: #056cb8;
+    border: none;
+    height: 50px;
+    width: 230px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+/*--------------------------------------------------------------------------------------*/
+.contentpage4
+{
+    height: 900px;
+    background-color: white;
+    display: flex;
+}
+.building img
+{
+    width: 525px;
+    height: 300px;
+    padding-top: 110px;
+    padding-left:90px ;
+}
+
+.mdword
+{
+    width: 350px;
+    height: 300px;
+    padding-top: 110px;
+    padding-left:90px ;
+}
+.mdphoto
+{
+    width: 100px;
+}
+.mdphoto img
+{
+    width: 100px;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.md
+{
+    width: 600px;
+}
+.mdnew
+{
+    display: flex;
+}
+.contentbutton4
+{
+    background-color:white;
+    color: #056cb8;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+
+.enterlogo img
+{
+    width: 200px;
+    height: 51px;
+}
+
+.contentbutton5
+{
+
+    margin-left: 15px;
+    background-color: #056Cb8;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 230px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.enterpad
+{
+    padding-top: 210px;
+    padding-left: 110px;
+}
+
+/*--------CONTENT PAGE 5--------------------------------------------------------------*/
+.contentpage5
+{
+    display: flex;
+}
+.madeinIndia
+{
+    background-color: #0060b4;
+    height: 700px;
+    width: 650px;
+    color: white;
+}
+.madeintext
+{
+    color: white;
+    width: 500px;
+    padding-left: 60px;
+    padding-top: 130px;
+}
+.usersdiv
+{
+    width: 350px;
+    height: 400px;
+    color: white;
+}
+
+.globallymain
+{
+    width: 350px;
+    display: flex;
+    padding: 30px;
+
+
+}
+.globallytext
+{
+    padding-left: 20px;
+}
+
+.worldmain
+{
+    width: 350px;
+    display: flex;
+    padding: 30px;
+
+
+}
+.worldtext
+{
+    padding-left: 55px;
+    
+}
+
+.productsmain
+{
+    width: 350px;
+    display: flex;
+    padding: 30px;
+
+
+}
+.productstext
+{
+    padding-left: 85px;
+}
+.served
+{
+    width: 350px;
+    display: flex;
+    padding: 20px;
+
+
+}
+.servedtext
+{
+    padding-left: 30px;
+}
+.inbusiness
+{
+    width: 350px;
+    display: flex;
+    padding: 20px;
+
+
+}
+.inbusinesstext
+{
+    padding-left: 50px;
+}
+
+.country
+{
+    width: 350px;
+    height: 400px;
+    color: white;
+    padding-top: 30px;
+}
+.blue
+{
+    display: flex;
+}
+.contentbutton6
+{
+    margin-left: 15px;
+    background-color: #0060b4;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 230px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+    border: 1px solid white;
+}
+
+.temple img
+{
+    height: 700px;
+    width: 650px;
+}
+
+
+/*--------------------------------------------conent6-----------------------------------------------*/
+.contentpage6
+{
+    height: 500px;
+}
+
+.respmain
+{
+    height: 400px;
+    padding-left: 40px;
+    
+}
+.respmainhead
+{
+    padding-left: 300px;
+}
+.respmaincontent
+{
+            padding-left: 230px;
+}
+.respmainbut
+{
+    margin-left: 15px;
+    color: #056Cb8;
+    background-color: white;
+    border: 1.5PX solid #056cB8;
+    height: 50px;
+    width: 230px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 460PX;
+}
+
+/*--------------------------------------------conent7-----------------------------------------------*/
+.groupphoto img
+{
+    width: 100%;
+}
+.groupphoto
+{
+    position: relative;
+    background-color: #f8f9fb;
+}
+/*--------------------------------------------conent8----------------------------------------------*/
+.corevalue
+{
+width:1100px;
+height: 650px;
+background-color:white;
+position: absolute;
+top: 267PX;
+left: 100px;
+}
+.corehead
+{
+    padding-left: 25px;
+}
+.coreicons
+{
+    background-color: white;
+    width: 1100px;
+    height:100px;
+    font-size: 50px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.corecontent
+{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.readout
+{
+    margin-left: 15px;
+    background-color: #056Cb8;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 400px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 300px;
+    margin-right: 10px;
+}
+/*--------------------------------------------forbes----------------------------------------------*/
+.forbes
+{
+    background-color:#f8f9fb;
+    height: 910px;
+}
+.unwantedforbes
+{
+    background-color: #f8f9fb;
+    height: 300px;
+}
+.forbesmain
+{
+    display: flex;
+    
+}
+.forbes1
+{
+    height: 450px;
+    width: 750px;
+    background-color: #f8f9fb;
+    padding-top: 100px;
+    padding-left: 140px;
+
+}
+.forbeslogo img
+{
+    height: 30px;
+    width: 80px;
+}
+
+.contentbutton7
+{
+    
+    margin-left: 15px;
+    color: #056Cb8;
+    background-color: white;
+    border: 1.5PX solid #056cB8;
+    height: 50px;
+    width: 230px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+.sirphoto img
+{
+    height: 400px;
+    width: 300px;
+    padding-top:100px ;
+}
+.contentbutton8
+{
+
+    margin-left: 15px;
+    background-color: #f60014;
+    color: white;
+    border: none;
+    height: 50px;
+    width: 180px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.bestofwork
+{
+    padding-left: 450px;
+align-items: center;
+background-color:  #f8f9fb;
+}
+
+.tools
+{
+    background-color: #f8f9fb;
+height: 400px;
+}
+
+.footer2
+{
+    background-color:  #f8f9fb;
+    display:flex;
+    justify-content: space-evenly;
+
+}
+ul{
+    margin-top: 110px;
+}
+ul a
+{
+    display: block;
+    margin-top: 15px;
+}
+
+.contentbutton9
+{
+    background-color:#f8f9fb;
+    color: #056cb8;
+    border: none;
+    height: 50px;
+    width: 150px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.socialmedia
+{
+    height:50px;
+    background-color: #f8f9fb;
+margin-top: 107px;
+font-size: 30px;
+justify-content: space-evenly;
+width: 100%;
+padding-left: 500px;
+}
+.policy1
+{
+    font-size: 14px;
+    height: 50px;
+
+}
+.sec 
+{
+    margin-top:  30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .policy2
+{
+    font-size: 14px;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer
+{
+    height: 130px;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    margin-top: 50px;
+}
+.logo57
+{
+    height: 30px;
+    width: 70px;
+    padding-left: 600px;
+}
+.copyright
+{
+    padding-left: 450px;
+}
